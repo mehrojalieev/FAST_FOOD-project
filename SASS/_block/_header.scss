@@ -86,6 +86,21 @@ section{
 section:nth-child(even){
     background-color: #eee;
 }
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #fff;
+    background-color: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+    &:hover{
+        background-color: var(--green);
+        letter-spacing: .1rem;
+        
+    }
+}
 #search-form {
     position: fixed;
     top: -110%;
@@ -203,6 +218,20 @@ section:nth-child(even){
 
 .home > .home-slider .slide .content{
     flex: 1 1 45rem;
+    span{
+        color: var(--green);
+        font-size: 2.5rem;
+    }
+    h3{
+        color: var(--black);
+        font-size: 7rem;
+    }
+    p{
+        color: var(--light-color);
+        font-size: 2.2rem;
+        padding: .5rem 0;
+        line-height: 1.5;
+    }
 }
 
 .home > .home-slider .slide .image{
