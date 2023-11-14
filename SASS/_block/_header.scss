@@ -80,7 +80,12 @@ header .icons a:hover {
 header .icons #menu-bars {
     display: none;
 }
-
+section{
+    padding: 2rem 9%;
+}
+section:nth-child(even){
+    background-color: #eee;
+}
 #search-form {
     position: fixed;
     top: -110%;
@@ -187,4 +192,22 @@ header .icons #menu-bars {
         font-size: 50%;
     }
 
+}
+
+.home > .home-slider .slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.home > .home-slider .slide .content{
+    flex: 1 1 45rem;
+}
+
+.home > .home-slider .slide .image{
+    flex: 1 1 45rem;
+    img{
+        width: 100%;
+    }
 }
