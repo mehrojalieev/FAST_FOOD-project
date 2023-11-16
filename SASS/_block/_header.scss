@@ -53,7 +53,13 @@ header .navbar a:hover {
 }
 
 ;
-
+.home > .home-slider .slide .image{
+    flex: 1 1 45rem;
+    img{
+        width: 100%;
+       object-fit: cover;
+    }
+}
 header .icons i,
 header .icons a {
     cursor: pointer;
@@ -156,6 +162,9 @@ section:nth-child(even){
     right: 3rem;
     font-size: 5rem;
 }
+.swiper-pagination-bullet-active{
+    background: var(--green);
+}
 
 @media (max-width: 991px) {
     html {
@@ -164,6 +173,9 @@ section:nth-child(even){
 
     header {
         padding: 1rem 2rem;
+    }
+    section{
+        padding: 2rem;
     }
 }
 
@@ -199,6 +211,9 @@ section:nth-child(even){
     #search-form #search-box{
         width: 90%;
         margin: 0 1rem;
+    }
+    .home .home-slider .slide .content h3{
+        font-size: 5rem;
     }
 }
 
