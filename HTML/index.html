@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="../style/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script defer src="../JAVASCRIPT/main.js"></script>
     <title>Fast Food Restaurant</title>
 </head>
@@ -38,10 +39,10 @@
     <!-- home section starts -->
 
     <section class="home" id="home">
-        <div class=" home-slider">
-            <div class="wrapper">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
 
-                <div class="slide">
+                <div class="swiper-slide slide">
                     <div class="content">
                         <span>our special dish</span>
                         <h3>spicy noodles</h3>
@@ -51,10 +52,10 @@
                         <a href="#" class="btn">order now</a>
                     </div>
                     <div class="image">
-                        <img width="500" height="600"  src="../images/home-img-1.jpg" alt="">
+                        <img width="500" height="600" src="../images/home-img-1.jpg" alt="">
                     </div>
                 </div>
-                <div class="slide">
+                <div class="swiper-slide slide">
                     <div class="content">
                         <span>our special dish</span>
                         <h3>fried chicken</h3>
@@ -64,7 +65,7 @@
                         <a href="#" class="btn">order now</a>
                     </div>
                     <div class="image">
-                        <img width="500" height="600"  src="../images/home-img-1.jpg" alt="">
+                        <img width="500" height="600" src="../images/home-img-1.jpg" alt="">
                     </div>
                 </div>
                 <div class="slide">
@@ -77,13 +78,15 @@
                         <a href="#" class="btn">order now</a>
                     </div>
                     <div class="image">
-                        <img width="500" height="600"  src="../images/home-img-1.jpg" alt="">
+                        <img width="500" height="600" src="../images/home-img-1.jpg" alt="">
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
-
+    <!-- Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
