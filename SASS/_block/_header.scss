@@ -34,6 +34,20 @@ header .logo {
     text-decoration: none;
 }
 
+.sub-heading{
+    text-align: center;
+    color: var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.heading{
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
 header .logo i {
     color: var(--green);
 }
@@ -165,6 +179,18 @@ section:nth-child(even){
 .swiper-pagination-bullet-active{
     background: var(--green);
 }
+.dishes .box-container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+   .box >img{
+    width: 250px;
+    background: transparent;
+    border-radius: 50%;
+   }
 
 @media (max-width: 991px) {
     html {
