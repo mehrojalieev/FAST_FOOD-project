@@ -5,7 +5,6 @@ Menu.onclick = () => {
     Menu.classList.toggle("fa-times")
     Navbar.classList.toggle("active")
 }
-
 window.onscroll = () => {
     Menu.classList.remove('fa-times');
     Navbar.classList.remove("active")
